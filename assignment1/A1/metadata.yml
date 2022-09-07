@@ -1,0 +1,12 @@
+---
+:id: 1708067
+:submitters:
+- :name: Huanhuan Huang
+  :email: huanhuan.huang@umontreal.ca
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2022-02-13 18:56:01.764267000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2022-02-13 10:56:01.764267000 Z
+:status: processed
+:score: 70.0
