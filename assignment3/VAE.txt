@@ -1,0 +1,20 @@
+VAE
+00:15:28	Ala Eddine:	Q: So this generative process is like the inverse of reducing dimensions by PCA?
+00:20:13	Mohamad Badreddine:	Wow, that's impressive
+00:23:57	Ala Eddine:	Q: How is the Z1 and Z2 associated to specifically Expression and Pose? Is this a choice of the data we train on? I guess the data has 2 major variation of expressions and poses? What makes it learn these properties instead of Gender or Hair for example?
+00:27:11	Ala Eddine:	Makes sense, thanks!
+00:27:13	António Góis:	Related to the previous question, could the model have learned entangled representations?
+00:27:32	António Góis:	Mixing expression and pose in each z_i
+00:31:34	António Góis:	Cool, thank you!
+00:58:01	benno:	Q: what if u take some average over the two KL divergence versions for example?
+01:16:34	Qilin Wang:	Q: why is lnP(x) equal to the last term on the second line? Doesn’t that means lnP(x) is an expectation?
+01:17:29	Cesare Spinoso-Di Piano:	you treat ln(p(x)) as a constant a multiply it by 1 = int_z q(z|x) dz
+01:19:11	Qilin Wang:	That makes sense, thanks!
+01:23:40	António Góis:	19222 vs 4021 citations, neither is doing bad 🙂
+01:30:23	Cesare Spinoso-Di Piano:	Q: What's the intuition of making the posterior match the prior?
+01:49:17	Juan Duran:	Q: I dont understand the images. what is the input, what is the output, and what was the expected output?
+01:50:53	Juan Duran:	thanks
+01:51:02	Hemanth Kumar Sheetha:	how do we control the direction of faces?
+01:51:10	Hemanth Kumar Sheetha:	in the previous example
+01:52:29	Hemanth Kumar Sheetha:	that's so cool. Thanks!
+01:57:08	Ala Eddine:	Q: What's the intuition behind deeper models giving less components? Learning more complex stacked features perhaps?
